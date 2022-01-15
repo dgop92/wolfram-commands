@@ -14,6 +14,16 @@ Simplify[1/6 n (19 + 15 n + 2 n^2)]
 
 ## Basic Calculus
 
+### Limit and Domain
+
+```
+Limit[sin(2t)/t, t -> 0]
+```
+
+```
+FunctionDomain[sqrt(9-x^2-y^2)]
+```
+
 ### Derivatives
 
 ```
@@ -37,6 +47,12 @@ Integrate[2x^2y, x, y]
 Integrate[2x,{x,0,5}]
 Integrate[2yx,{y,0,5}]
 Integrate[Integrate[2yx,{y,0,5}], {x, 5, 4}]
+```
+
+### Extrema
+
+```
+LocalExtrema[(x^2/3)+y^2+1/5+xy-(x/2)-(2y/3)]
 ```
 
 ## Linear Algebra
